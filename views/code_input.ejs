@@ -1,0 +1,17 @@
+<!-- views/code_input.ejs -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter Authorization Code</title>
+</head>
+<body>
+    <h1>Enter Authorization Code</h1>
+    <p>Please paste the authorization code you received from TeamSnap:</p>
+    <form action="/auth/teamsnap/code" method="post">
+        <input type="text" name="code" style="width: 400px;" />
+        <br /><br />
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
